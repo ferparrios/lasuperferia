@@ -1,0 +1,339 @@
+body{
+	max-width: 1258px;
+	margin: 0 auto;
+	font-family: sans-serif, arial;
+}
+header{
+	max-width: 80%;
+	margin: 0 auto;
+}
+li{
+	list-style: none;
+	display: inline;
+	margin: 10px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a::link { 
+    background-color: #ff1400;
+}
+a:hover{
+	color: #ff1400;
+}
+ul{
+	display: inline-block;
+}
+nav{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;	
+	padding-left: 410px;
+	position: relative;
+	margin-bottom: 9px;
+}
+
+.redes{
+	float: right;
+	padding-right: 70px;
+	margin-bottom: 30px;
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+}
+.prese{
+	display: inline-block;
+	width: /*49.789%;*/ 50%;
+	height: 100%;
+}
+.prese1{
+	display: inline-block;
+	width: /*49.789%;*/ 49%;
+	height: 100%;
+}
+.h3-bla{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding-top: 50px;
+	margin-top: 0;
+}
+.h3-neg{
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	margin: 0;
+}
+.section1{
+	width: 100%;
+	height: 100%;
+	background-color: #00e691;
+}
+.section2{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/superferia-fondos_03.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+.section3{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-image: url(../images/superferia-fondos_04.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: #00e691;
+}
+.section4{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	/*background-image: url(../images/superferia-fondos_05.jpg);*/
+	background-color: #00e691;
+	/*background-repeat: no-repeat;*/
+	padding-bottom: 100px;
+}
+.section5{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-image: url(../images/superferia-fondos_06.jpg);
+	background-repeat: no-repeat;
+}
+.section6{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-image: url(../images/superferia-fondos_07.jpg);
+	background-repeat: no-repeat;
+}
+.section7{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-bottom: 100px;
+	
+}
+.forma{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: 1.5;
+
+}
+.forma1{
+	padding-bottom: 20px;
+}
+form div input{
+	font-size: 15px;
+	color: #b1b3b6;
+}
+.icono{
+	display: inline-block;
+}
+.icono2{
+	margin-bottom: 190px;
+	display: inline-block;
+	
+}
+.benef{
+	text-align: center;
+}
+.benef2{
+	padding-bottom: 20px;
+}
+footer{
+	background-image: url(../images/footer_71.jpg);
+	text-align: center;
+	
+}
+footer ul{
+	padding-bottom: 30px;
+}
+footer ul li{
+	font-size: 18px;
+	color: white;
+
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	color: #00e691;
+}
+
+.tarif{
+	padding-bottom: 50px;
+}
+.derechos{
+	background-color: #00e691;
+	color: white;
+	font-size: 18px;
+	padding: 10px;
+}
+.tbajo{
+	font-size: 42px;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin: 0;
+}
+input{
+	width: 43%;
+	height: 45px;
+	border: 1px solid #b1b3b6;
+	border-radius: 5px;
+}
+input::placeholder{
+	font-size: 20px;
+	color: #b1b3b6;
+}
+select{
+	width: 43%;
+	font-size: 20px;
+	height: 45px;
+	color: #b1b3b6;
+	border: 1px solid #b1b3b6;
+	border-radius: 5px;
+}
+select option{
+	font-size: 20px;
+	color: #b1b3b6;
+}
+button{
+	width: 43%;
+	height: 45px;
+	background-color: #00e691;
+	border: none;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.section9{
+	width: 100%;
+	height: 100%;
+}
+.txt3{
+	padding-bottom: 190px;
+}
+#gracias{
+	font-family: sans-serif arial;
+	font-size: 56px;
+	text-align: center;
+	color: #00e691;
+	font-weight: bold;
+	background-image: url(../images/superferia-fondos_04.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+
+}
+#gracias p{
+	padding-top: 250px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0;
+}
+#gracias a{
+	color: #00e691;
+	text-decoration: underline;
+}
+
+@media (max-width: 1258px){
+	.prese{
+		width: 100%;
+	}
+	.icono{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		width: 40%;
+	}
+	.icono2{
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.section2{
+		height: 100%;
+	}
+	.tarif{
+		width: 90%;
+		padding-bottom: 0;
+	}
+	.txt3{
+		padding-bottom: 10px;
+	}
+ 	.log{
+ 		width: 60%;
+ 	}
+ 	.logo{
+ 		width: 45%;
+ 	}
+ 	nav{
+ 		padding-top: 0px;
+ 		padding-left: 550px;
+ 	}
+	nav ul li{
+		display: block;
+		width: 100%;
+		font-size: 32px;
+		/*border: 2px solid black;
+		margin: 0;*/
+		list-style: 
+	}
+	.prese1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	}
+	.benef2{
+		padding-bottom: 50px;
+	}
+	.logo2{
+		width: 30%;
+		padding-bottom: 50px;
+	}
+	footer ul{
+		margin: 0 auto;
+		padding-top: 25px;
+		padding-left: 0;
+	}
+	footer ul li{
+		width: 100%;
+		display: block;
+		font-size: 40px;
+	}
+	.derechos{
+		font-size: 40px;
+	}
+	input{
+		width: 90%;
+		height: 55px;
+	}
+	select{
+		width: 90%;
+		height: 55px;
+	}
+	button{
+		width: 90%;
+		height: 55px;
+	}
+
+}	
